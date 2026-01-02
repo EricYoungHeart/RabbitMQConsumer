@@ -1,0 +1,38 @@
+# .gitignore для .NET проекта
+
+## Игнорировать конфигурационные файлы с секретами
+appsettings.json
+appsettings.*.json
+
+## Игнорировать папки с собранными билдами
+bin/
+obj/
+.vs/
+TestResults/
+publish/
+
+## Игнорировать файлы пользовательской среды
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Игнорировать резервные копии
+*.backup
+*.bak
+
+## Игнорировать лог-файлы
+*.log
+service_log.txt
+
+## Игнорируемые папки с сообщениями
+input_messages/
+logs/
+
+## Игнорировать пакеты NuGet
+packages/
+*.nupkg
+
+## Rider/Visual Studio Code
+.idea/
+.vscode/
